@@ -1,12 +1,13 @@
-﻿using IdentityClass.Data;
-using IdentityClass.Dto;
+﻿using JWTAuthLibrary.Data;
+using JWTAuthLibrary.Dto;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace WebAPIProject.Services
+namespace JWTAuthLibrary.Services
 {
     public interface IAuthService
     {
