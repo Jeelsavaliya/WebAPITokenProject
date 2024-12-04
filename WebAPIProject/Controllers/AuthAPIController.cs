@@ -1,6 +1,6 @@
-﻿using IdentityClass.Dto;
+﻿using JWTAuthLibrary.Dto;
 using Microsoft.AspNetCore.Mvc;
-using WebAPIProject.Services;
+using JWTAuthLibrary.Services;
 
 namespace WebAPIProject.Controllers
 {

@@ -1,4 +1,4 @@
-﻿namespace IdentityClass.Dto
+﻿namespace JWTAuthLibrary.Dto
 {
     public class LoginResponseDto
     {

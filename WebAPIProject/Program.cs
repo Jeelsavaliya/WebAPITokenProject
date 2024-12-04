@@ -1,4 +1,4 @@
-using IdentityClass.Data;
+using JWTAuthLibrary.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
@@ -7,7 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 using System.Security.Principal;
 using System.Text;
-using WebAPIProject.Services;
+using JWTAuthLibrary.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
